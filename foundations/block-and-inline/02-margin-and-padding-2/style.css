@@ -30,5 +30,9 @@ body {
 
 button {
   background: white;
+  width: 200;
   border: 1px solid #eee;
+  padding: 10px;
+  display: block;
+  margin: 0 auto;
 }
