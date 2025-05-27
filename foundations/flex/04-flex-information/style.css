@@ -13,17 +13,28 @@ img {
   font-size: 36px;
   font-weight: 900;
   margin: auto;
+  padding: 10px;
+  margin-bottom: 30px;
 }
 
 .content {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
+  gap: 30px;
 }
 
 .plant {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   align-items: center;
+  gap: 10px;
+  flex-basis: 200px;
+}
+
+.text {
+  text-align: center;
 }
 
 /* do not edit this footer */
