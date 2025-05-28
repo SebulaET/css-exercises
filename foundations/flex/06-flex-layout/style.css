@@ -28,22 +28,34 @@ input {
 }
 
 ul {
+  display: flex;
   list-style: none;
   padding: 0;
+  margin: 0;
+  gap: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(81, 79, 79);
 }
 
 div.header, div.footer {
   display: flex;
   justify-content: space-between;
+  padding: 15px;
 }
 
 div.footer {
-  margin-top: auto;  
+  margin-top: auto;
+  background-color: #eeeeee;
 }
 
 div.content {
   display: flex;
-  flex-wrap: wrap;
+  flex: 1;
+  flex-direction: column;
+  gap: 15px;
   justify-content: center;
   align-items: center;
 }
